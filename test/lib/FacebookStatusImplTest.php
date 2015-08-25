@@ -60,7 +60,7 @@ class FacebookStatusImplTest extends PHPUnit_Framework_TestCase{
 
     public function testNextStatus()
     {
-        $this->assertInstanceOf('ChristianBudde\lenevemb_dk\model\FacebookStatusImpl', $this->status->getNextStatus());
+        $this->assertInstanceOf('ChristianBudde\PartFacebook\model\FacebookStatusImpl', $this->status->getNextStatus());
     }
 
     public function testDate(){

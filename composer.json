@@ -23,7 +23,8 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "ChristianBudde\\PartFacebook\\test\\": "test/lib"
+      "ChristianBudde\\PartFacebook\\test\\": "test/lib",
+      "ChristianBudde\\Part\\test\\" : "vendor/christianbud.de/part/test/lib"
     }
   }
 }

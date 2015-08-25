@@ -59,7 +59,7 @@ class FacebookPageImplTest extends PHPUnit_Framework_TestCase
     public function testGetStatusWithoutId()
     {
         $n = $this->page->getStatus();
-        $this->assertInstanceOf('ChristianBudde\lenevemb_dk\model\FacebookStatusImpl', $n);
+        $this->assertInstanceOf('ChristianBudde\PartFacebook\model\FacebookStatusImpl', $n);
 
     }
 
