@@ -1,0 +1,29 @@
+{
+  "name": "christianbud.de/part-facebook",
+  "description": "A facebook extension to Part",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Budde Christensen",
+      "email": "christi@nbud.de"
+    }
+  ],
+  "require": {
+    "christianbud.de/part": ">=1.3.0 <1.4",
+    "facebook/php-sdk-v4": "4.0.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ChristianBudde\\PartFacebook\\": "lib"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ChristianBudde\\PartFacebook\\test\\": "test/lib"
+    }
+  }
+}
